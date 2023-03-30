@@ -1,0 +1,92 @@
+/* сразу прошу прощения за float,к сожалению flex я еще не изучил,но пересмотрю обязательно вашу запись */
+
+
+* {
+    margin: 0 auto;
+}
+.conteiner {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+.conteiner2 {
+    width: 800px;
+    display: flex;
+    position: relative;
+    height: 200px;
+
+}
+.conteiner3 {
+    display: flex;
+    width: 800px;
+    position: relative;
+    height: 200px;
+} 
+.hello {
+    background-color: rgb(238, 237, 236);
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin: 0;
+    line-height:200px;
+}
+.hello3 {
+   background-color: rgb(165, 164, 164);
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin: 0;
+    line-height:200px;
+
+}
+.img {
+    height: 200px;
+    width: 400px;
+    background-image: url('bad.jpg');
+    background-size: 100%;
+    transition: 1s;
+}
+.img2 {
+    height: 200px;
+    width: 400px;
+    background-image: url('bad.jpg');
+    background-size: 100%;
+    transition: 1s;
+}
+.img3 {
+    height: 200px;
+    width: 400px;
+    background-image: url('bad.jpg');
+    background-size: 100%;
+    transition: 1s;
+}
+.ol {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    background: #000;
+    height:200px;
+    transition: 0.3s;
+}
+.conteiner:hover .ol {
+    opacity: 0.5;
+}
+.conteiner:hover .img {
+    background-size: 120%;
+}
+.conteiner2:hover .ol {
+    opacity: 0.5;
+}
+.conteiner2:hover .img2 {
+    background-size: 120%;
+}
+.conteiner3:hover .ol {
+    opacity: 0.5;
+}
+.conteiner3:hover .img3 {
+    background-size: 120%;
+}
